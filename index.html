@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smooflix – Die Smoothie-Suche</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <h1>Smooflix</h1>
+        <p>Entdecke deinen perfekten Smoothie</p>
+    </header>
+    <main>
+      <section>
+        <article class="suche">
+        <input type="text" name="smoothie-name" id="smo-name" placeholder="Smoothie Name">
+        <input id="btn" type="button" value="Smoothie generieren" />
+        </article>
+        <article class="rezept">
+            <h2 id="smo-titel" class="hidden"></h2>
+            <figure><img src="" alt="" id="smo-bild" class="hidden"></figure>
+            <div id="smo-tag" class="hidden"></div>
+            <h3 id="listTitel">Was ist dein perfekter Smoothie? Finde es heraus! <br>Wir haben das passende Rezept für dich. <br><br></h3>
+            <ul id="smo-liste" class="hidden"></ul>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
